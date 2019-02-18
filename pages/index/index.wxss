@@ -1,0 +1,39 @@
+/**index.wxss**/
+.body{
+  background-color:#f7f7f7;
+}
+.job-item{
+  font-size: 50rpx;
+}
+navigator{
+
+}
+.job-view{
+  background-color: #fff;
+  margin-bottom: 20rpx; 
+}
+.job-name{
+  width: 40%;
+  padding: 5rpx 5%;
+  display: inline-block;
+}
+.job-sal{
+  text-align: right;
+  width: 40%;
+  padding: 5rpx 5%;
+  display: inline-block;
+}
+.job-detail{
+  padding-bottom: 15rpx
+}
+.job-detail>view{
+  display: inline-block;
+  font-size: 30rpx;
+  padding: 2rpx 5rpx;
+}
+.job-detail-inner{
+  background-color: #f3ecec;
+  padding: 2rpx 8rpx;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+}

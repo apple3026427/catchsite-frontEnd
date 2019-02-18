@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="body">
+      <view wx:for="{{jobInfo}}" class="job-view">
+        <navigator>
+          <view class="job-item">
+            <view class="job-name">
+              {{item.jobName}}
+            </view>
+            <view class="job-sal">
+              {{item.salary}}
+            </view>  
+          </view>
+        </navigator>
+        <view class="job-detail">
+          <view class="work-year">
+            <view class="job-detail-inner">
+            {{item.workYear}}
+            </view>
+          </view>
+          <view class="edu-bg">
+            <view class="job-detail-inner">
+            {{item.eduBg}}
+            </view>
+          </view>
+          <view class="loc">
+            <view class="job-detail-inner">
+            {{item.loc}}
+            </view>
+          </view>
+          <view class="site">
+            <view class="job-detail-inner">
+            {{item.originSite}}
+            </view>
+          </view>
+        </view>
+        <view class="time">
+        
+        </view>
+      </view>
+</view>

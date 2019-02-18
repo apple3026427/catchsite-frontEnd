@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#096",
+    "navigationBarTitleText": "招聘信息",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#f2f2f2"
+  }
+}
