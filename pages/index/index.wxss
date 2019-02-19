@@ -3,7 +3,8 @@
   background-color:#f7f7f7;
 }
 .job-item{
-  font-size: 50rpx;
+  padding-top: 15rpx;
+  font-size: 35rpx;
 }
 navigator{
 
@@ -13,16 +14,31 @@ navigator{
   margin-bottom: 20rpx; 
 }
 .job-name{
-  width: 40%;
-  padding: 5rpx 5%;
+  width: 60%;
+  padding: 5rpx 20rpx;
   display: inline-block;
+  white-space: nowrap;    
+  text-overflow: ellipsis; 
 }
 .job-sal{
+  color:rgb(100, 182, 182);
   text-align: right;
-  width: 40%;
-  padding: 5rpx 5%;
+  width: 30%;
+  padding: 5rpx 20rpx;
   display: inline-block;
 }
+.company-info{
+  padding-bottom: 10rpx;
+}
+.company-info>view{
+  color: #787955;
+  display: inline-block;
+  font-size: 30rpx;
+}
+.company-type{
+  padding-left: 20rpx;
+}
+
 .job-detail{
   padding-bottom: 15rpx
 }

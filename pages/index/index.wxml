@@ -4,13 +4,25 @@
         <navigator>
           <view class="job-item">
             <view class="job-name">
-              {{item.jobName}}
+              {{item.jobName}}/{{item.companyName}}
             </view>
             <view class="job-sal">
               {{item.salary}}
             </view>  
           </view>
         </navigator>
+        <view class="company-info">
+          <view class="company-type">
+            {{item.companyType}}-
+          </view>
+          <view class="financing-stage">
+            {{item.financingStage}}-
+          </view>
+          <view class="company-size">
+            {{item.companySize}}
+          </view>
+        </view>
+
         <view class="job-detail">
           <view class="work-year">
             <view class="job-detail-inner">
