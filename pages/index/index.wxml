@@ -1,52 +1,56 @@
 <!--index.wxml-->
 <view class="body">
-      <view wx:for="{{jobInfo}}" class="job-view">
-        <navigator>
-          <view class="job-item">
-            <view class="job-name">
-              {{item.jobName}}/{{item.companyName}}
-            </view>
-            <view class="job-sal">
-              {{item.salary}}
-            </view>  
+    <view wx:for="{{jobInfo}}" class="job-view">
+      <navigator>
+        <view class="job-item">
+          <view class="job-name">
+            {{item.jobName}}/{{item.companyName}}
           </view>
-        </navigator>
-        <view class="company-info">
-          <view class="company-type">
-            {{item.companyType}}-
-          </view>
-          <view class="financing-stage">
-            {{item.financingStage}}-
-          </view>
-          <view class="company-size">
-            {{item.companySize}}
-          </view>
-        </view>
 
-        <view class="job-detail">
-          <view class="work-year">
-            <view class="job-detail-inner">
-            {{item.workYear}}
-            </view>
-          </view>
-          <view class="edu-bg">
-            <view class="job-detail-inner">
-            {{item.eduBg}}
-            </view>
-          </view>
-          <view class="loc">
-            <view class="job-detail-inner">
-            {{item.loc}}
-            </view>
-          </view>
-          <view class="site">
-            <view class="job-detail-inner">
-            {{item.originSite}}
-            </view>
-          </view>
+          <view class="job-sal">
+            {{item.salary}}
+          </view>  
         </view>
-        <view class="time">
-        
+      </navigator>
+      <view class="company-info">
+        <view class="company-type">
+          {{item.companyType}}-
+        </view>
+        <view class="financing-stage">
+          {{item.financingStage}}-
+        </view>
+        <view class="company-size">
+          {{item.companySize}}
+        </view>
+        <view class="pub-time">
+          {{item.releaseDate}}
         </view>
       </view>
+
+      <view class="job-detail">
+        <view class="work-year">
+          <view class="job-detail-inner">
+          {{item.workYear}}
+          </view>
+        </view>
+        <view class="edu-bg">
+          <view class="job-detail-inner">
+          {{item.eduBg}}
+          </view>
+        </view>
+        <view class="loc">
+          <view class="job-detail-inner">
+          {{item.loc}}
+          </view>
+        </view>
+      </view>
+      <view class="grab-info">
+        <view class="origin-site">
+          抓取来源： {{item.originSite}}
+        </view>
+        <view class="grab-time">
+          抓取时间： {{item.grabDate}}
+        </view>
+      </view>
+    </view>
 </view>

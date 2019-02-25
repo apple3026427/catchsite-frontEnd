@@ -29,7 +29,7 @@ Page({
   getJobInfo() {
     let that = this;
     wx.request({
-      url: 'http://localhost:8080/testse',
+      url: 'http://localhost:8080/getJobInfoList',
       success: function (res) {
         console.log(res)// 服务器回包信息
         that.setData({

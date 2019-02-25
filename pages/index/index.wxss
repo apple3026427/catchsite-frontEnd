@@ -3,7 +3,7 @@
   background-color:#f7f7f7;
 }
 .job-item{
-  padding-top: 15rpx;
+  padding-top: 25rpx;
   font-size: 35rpx;
 }
 navigator{
@@ -20,6 +20,7 @@ navigator{
   white-space: nowrap;    
   text-overflow: ellipsis; 
 }
+
 .job-sal{
   color:rgb(100, 182, 182);
   text-align: right;
@@ -28,28 +29,60 @@ navigator{
   display: inline-block;
 }
 .company-info{
-  padding-bottom: 10rpx;
+  overflow: auto;
+  padding-top: 25rpx;
 }
 .company-info>view{
-  color: #787955;
-  display: inline-block;
   font-size: 30rpx;
 }
-.company-type{
+.company-type {
+  float: left;
   padding-left: 20rpx;
+  color: #787955;
 }
-
+.financing-stage {
+  float: left;
+  color: #787955;
+}
+.company-size {
+  float: left;
+  color: #787955;
+}
+.pub-time{
+  padding-right: 20rpx;
+  float: right;
+  font-size: 15rpx;
+  color: #9fa3b0;
+}
 .job-detail{
-  padding-bottom: 15rpx
+  padding-top: 25rpx;
+  padding-left: 20rpx;
 }
 .job-detail>view{
   display: inline-block;
   font-size: 30rpx;
-  padding: 2rpx 5rpx;
+  /* padding: 2rpx 5rpx; */
+  padding-right: 15rpx;
 }
 .job-detail-inner{
   background-color: #f3ecec;
+  /* padding: 2rpx 8rpx; */
   padding: 2rpx 8rpx;
   border-radius: 10rpx;
-  margin-left: 10rpx;
+  /* margin-left: 10rpx; */
+}
+
+.grab-info{
+  overflow: auto;
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+  font-size: 27rpx;
+}
+.origin-site{
+  padding-left: 20rpx;
+  float: left;
+}
+.grab-time{
+  padding-right: 20rpx;
+  float: right;
 }
