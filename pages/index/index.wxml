@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="body">
-    <view wx:for="{{jobInfo}}" class="job-view">
+    <view wx:for="{{jobInfo}}" class="job-view" wx:key="{item.jobId}">
       <navigator>
         <view class="job-item">
           <view class="job-name">
